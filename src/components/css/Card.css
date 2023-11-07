@@ -1,0 +1,34 @@
+.card {
+    background-color: beige;
+    width: 50%;
+    padding: 1rem 1rem 2rem 1rem;
+    box-shadow: 0.5rem 0.5rem 1.5rem rgb(56, 56, 56);
+    margin: 2rem auto;
+    border-radius: 8px;
+
+}
+
+.con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.image {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.image img {
+    width: 80%;
+    aspect-ratio: 1 / 1;
+}
+
+.text {
+    width: 50%;
+    text-align: center;
+}
