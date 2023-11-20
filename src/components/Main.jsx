@@ -35,7 +35,7 @@ function Main() {
 
     return (
         <div className="main-con">
-            <h1>Weather project</h1>
+            <h1 className='heading'>Weather project</h1>
             <input type="search" className="inp" placeholder="Search"
                 onChange={(e)=>setSearch(e.target.value) }
             />
