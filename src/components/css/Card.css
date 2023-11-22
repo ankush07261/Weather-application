@@ -6,16 +6,13 @@
     border: 2px solid white;
     margin: 2rem auto;
     border-radius: 8px;
-
 }
-
 .con {
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
-
 .image {
     width: 30%;
     display: flex;
@@ -23,12 +20,10 @@
     align-items: center;
     padding: 1rem;
 }
-
 .image img {
     width: 80%;
     aspect-ratio: 1 / 1;
 }
-
 .text {
     width: 50%;
     text-align: center;
