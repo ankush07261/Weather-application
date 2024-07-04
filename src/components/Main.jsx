@@ -14,8 +14,7 @@ function Main() {
     // console.log(search);
     useEffect(() => {
         async function getData() {
-            let api = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=29d395129097a089a2a83bc2acf3cdcb`
-        //29d395129097a089a2a83bc2acf3cdcb      
+            let api = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=${APIid}`;    
         try {
             let res = await fetch(api);
             let response = await res.json();
